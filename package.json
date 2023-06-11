@@ -2,14 +2,18 @@
   "name": "ultimate-template",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "prepare": "nx g @nx-dotnet/core:restore"
+  },
   "private": true,
-  "dependencies": {},
   "devDependencies": {
+    "@nrwl/js": "16.3.2",
+    "@nx-dotnet/core": "^1.22.0",
     "nx": "16.3.2",
     "nx-cloud": "latest"
   },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "dependencies": {}
 }

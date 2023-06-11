@@ -17,5 +17,8 @@
         "accessToken": "YjAyMWU4MDctMzgwMC00OTUzLTg1ZDMtOWVkMTY1MDk4MTUwfHJlYWQtd3JpdGU="
       }
     }
-  }
+  },
+  "plugins": [
+    "@nx-dotnet/core"
+  ]
 }
