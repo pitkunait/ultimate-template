@@ -3,12 +3,12 @@
  */
 package com.servive.app
 
-import com.servive.utilities.StringUtils
+import org.springframework.boot.autoconfigure.SpringBootApplication
+import org.springframework.boot.runApplication
 
-import org.apache.commons.text.WordUtils
+@SpringBootApplication
+class App
 
-fun main() {
-    val tokens = StringUtils.split(MessageUtils.getMessage())
-    val result = StringUtils.join(tokens)
-    println(WordUtils.capitalize(result))
+fun main(args: Array<String>) {
+    runApplication<App>(*args);
 }

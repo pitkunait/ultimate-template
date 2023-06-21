@@ -19,6 +19,8 @@ dependencies {
         // Define dependency versions as constraints
         implementation("org.apache.commons:commons-text:1.9")
     }
+
+    testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
 
 testing {
